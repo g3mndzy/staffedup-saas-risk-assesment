@@ -43,7 +43,22 @@ Cloud storage is a pillar in Saas archetiecture and so there needs to be conside
 
 Another thing to consider is Authentication flow. Users want both ease of access and security. It is a delicate balance between increasing security which adds more steps for users to log on and atual user usability. Especially with multi-tenant architecture, it is essential that authentication is configured correctly to mitigate or eliminate data leakage or cross tenant access. Multifactor authenticatio is a comman security layer used in SAas platforms. However there are levels to MFA flows. Weak flows include relying on SMS or OTP which has its own set of vulnerabilties. More secure MFA workflows include using passkeys  and authenticators. Other MFA options include magic links, adaptive MFA(reliant on geolocation, login behavior and device reputation)
 
+Cloud Security
+Clous securirty refers to policies and controls impletented to protect data, applications and infrastructure and mitigate misconfiguration and unaurthorizes usage. Cloud security differes from on premise security in a myriad of ways including but not limited to:
+-Misconfigurations and visibiulity gaps
+-Identidy and access complexities
+-Shared responsibility confusion
+-Rapidly changing infrastructure
 
+With this comes a shared responsibility model: the customer is responsible to for IAM configurations and cloud providers are repsonsible for securing underlying infrastructure including the physical data.
+
+Cloud security best practices include:
+1. Maintain continous asset visibility
+2. Enforce strong identity and access management
+3. Establish/ reinforce secure baselines & monitor for drifts
+4. Protecting data in transit and at-rest (encryption)
+5. Centralized log collection/ monitoring
+6. Incedent response planning for cloud specific incidents
 
  
 Sources
