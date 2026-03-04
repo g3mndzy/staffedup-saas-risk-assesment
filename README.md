@@ -60,10 +60,42 @@ Cloud security best practices include:
 5. Centralized log collection/ monitoring
 6. Incedent response planning for cloud specific incidents
 
- 
+The need for corportations to achieve cloud migtration while retaining security has become increasingly challenging. With the advancement of AI, threat actors are harnessing the powers of this tool in order to launch highly sohpisticated attacks on cloud environments. Here are some examples of Saas threats:
+-Data breaches due to IAM miscongigurations or inadequate encryption
+-Account hijacking due to threat actosrs using stolen credentials 
+-Insecure API's are prone to attack if not properly vetted/secured
+-DoS is a classic attack that leads to business losses due to downtime
+-Insider threats
+-Comliance violationsh where businesses are not regulatory standards to secure there data. 
+-Supply chain attacks. 
+
+
+ NIST- CSF: This i meant to help organizations manage and reduce cybersecurity risk.
+ According to CSF 2.0, the first tier is 
+ 1. Govern- Policy, cybersecurity risk management and expectations are monitored
+ 2.Identify- Current cybersecurty risks are understood
+3. Protect- Safegaurds are put in place.
+4. Detect- Cybersecurity attacks are found and analyzed.
+5. Respond- Actions are taken agaistn cybersecurity incident
+6. Recover- operations that were affected are restored.
+
+ISO 27001 is an information security management standard that provides organizations with structured framework to safegaurd information.
+
+
+Asset Inventory Table
+| Risk | Owner | Sensitivity | Location | Notes
+
+Risk Register 
+
+|Risk | Asset | Threat | Likelihood | Impact | Score | Mitigation ]
+
+Risk 
+    
 Sources
 https://innovecs.com/blog/essential-guide-to-saas-architecture/
 https://www.sei.cmu.edu/blog/3-api-security-risks-and-recommendations-for-mitigation/
 https://www.sei.cmu.edu/blog/stop-imagining-threats-start-mitigating-them-a-practical-guide-to-threat-modeling/
 https://www.descope.com/blog/post/saas-auth
 https://www.cisa.gov/resources-tools/training/get-most-out-cloud-storage-and-services-while-minimizing-risk
+https://www.darktrace.com/cyber-ai-glossary/the-most-common-cloud-security-threats
+https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
