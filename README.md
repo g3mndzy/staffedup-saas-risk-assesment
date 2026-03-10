@@ -1,7 +1,8 @@
 # staffedup-saas-risk-assesment
 
 
-So you've landed your first cybersecurity internship — now what?
+So You Landed Your First Cybersecurity Internship — Now What?
+Understanding SaaS Security, Risk Assessment, and Threat Modeling
 
 First, congratulations. Breaking into cybersecurity in today’s job market is no small accomplishment. But landing the internship is only the beginning.
 
@@ -108,7 +109,7 @@ There are many security frameworks, and this is not an exhaustive list. You do n
 3. Repudiation
 4. Information Disclosure
 5. Denial of Service
-6. Elavation of Privilege
+6. Elevation of Privilege
    
 **OWASP Top 10** is the Open Web Application Security Project that focuses on the ten most critical risks to web applications. These include:
 
@@ -133,13 +134,13 @@ A common framework used in threat modeling revolves around **four key** question
 1. What are we working on?
 This is determined by assessing the scope of the project and understanding the architecture, assets, and data flows within the system.
 
-3. What can go wrong?
+2. What can go wrong?
 Potential threats are modeled using techniques such as STRIDE, cyber kill chains, or attack trees to identify possible attack vectors.
 
-5. What are we going to do about it?
+3. What are we going to do about it?
 Mitigation strategies are implemented to reduce risk. Organizations may choose to mitigate, accept, transfer, or eliminate specific risks depending on the severity and likelihood of the threat.
 
-7. Did we do a good job?
+4. Did we do a good job?
 After mitigation strategies are implemented, the security plan should be reviewed to determine whether the system is sufficiently protected and whether additional safeguards are needed.
 
 Once potential threats have been identified through threat modeling, organizations must implement systems that allow them to detect suspicious activity and respond quickly. This is where logging and monitoring become essential.
@@ -150,7 +151,7 @@ Another important aspect of system health is logging and monitoring. Logging is 
 
 SIEM, or Security Information and Event Management, provides log aggregation along with real-time monitoring and analysis. By collecting logs from multiple systems into a centralized location, SIEM platforms greatly enhance an organization's ability to monitor and secure its IT infrastructure.
 
-A SOC analyst typically specializes in monitoring these SIEM platforms in order to detect anomalies and potential security incidents. Some popular SIEM platforms that you can use in your home labs are Splunk or Wazuh if you want to practice setting up and configuring dashboards to monitor different security events. However, that is beyond the scope of this article.Through my own experience working with SIEM tools, it emphasized how important it is to continuously monitor systems to maintain visibility and detect threats early.
+A SOC analyst typically specializes in monitoring these SIEM platforms in order to detect anomalies and potential security incidents. Some popular SIEM platforms that you can use in your home labs are Splunk or Wazuh if you want to practice setting up and configuring dashboards to monitor different security events. However, that is beyond the scope of this article. Through my own experience working with SIEM tools, it emphasized how important it is to continuously monitor systems to maintain visibility and detect threats early.
 
 # Questions to Guide Your Internship
 
@@ -182,7 +183,7 @@ Moving forward, with my team we came up with a list of questions to further get 
 
 This initial conversation helped us understand the environment we were assessing and ensured that our vulnerability assessment was grounded in a clear understanding of the system. From there, the real work began.
 
-I hope this article provided a helpful introduction into how cybersecurity professionals approach systems, risks, and security planning. Of course, the research does not end here. Continuing to close knowledge gaps before your internship begins will help ensure that you are not overwhelmed and that you can confidently ask questions, make connections, and leave a strong impression.
+I hope this article provided a helpful introduction into how cybersecurity professionals approach systems, risks, and security planning. Of course, the research does not end here. Continuing to close knowledge gaps before your internship begins will help ensure that you are not overwhelmed and that you can confidently ask questions, make connections, and leave a strong impression. EVen after your internship, you may find there is still so much to learn. Cybersecurity is a field built on curiosity and continuous learning, and developing these habits early will serve you well throughout your career.
 
 Sources
 https://innovecs.com/blog/essential-guide-to-saas-architecture/
