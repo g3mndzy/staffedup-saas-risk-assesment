@@ -11,7 +11,7 @@ When preparing for my internship, I realized success isn’t just about knowing 
 
 Let's be real, you don't want to be the intern that is sitting down idly twiddling your thumbs. An exceptional intern asks questions, is naturally curious, and makes connections. These qualities come from calculated preparation. So let's jump into some fundamentals that will definitely allow you to have a better understanding of your role so you can hit the ground running.
 
-GOAL: After reading this you will understand how SaaS infrastructure works, common vulnerabilities, frameworks to be familiar with in guiding your vulnerability assessments, and some questions that you can ask to wow your employer!
+**GOAL**: After reading this you will understand how SaaS infrastructure works, common vulnerabilities, frameworks to be familiar with in guiding your vulnerability assessments, and some questions that you can ask to wow your employer!
 
 My project entails performing a vulnerability assessment of a segment of assets and recommending strategies to improve. Being that the company I am working for is a SaaS company, that was my first stop for research. Let's dive in.
 
@@ -82,7 +82,7 @@ When conducting your vulnerability assessment, these are factors to consider.
 # Security Frameworks
 You do not need to memorize every framework, but you should be familiar with the following ones.
 
-** NIST CSF ** is used to help organizations manage and reduce cybersecurity risk. According to CSF 2.0, the functions include:
+**NIST CSF** is used to help organizations manage and reduce cybersecurity risk. According to CSF 2.0, the functions include:
 * Govern – Policy, cybersecurity risk management, and expectations are monitored
 * Identify – Current cybersecurity risks are understood
 * Protect – Safeguards are put in place
@@ -90,9 +90,9 @@ You do not need to memorize every framework, but you should be familiar with the
 * Respond – Actions are taken against cybersecurity incidents
 * Recover – Operations that were affected are restored
 
-** ISO 27001 ** is an information security management standard that provides organizations with a structured framework to safeguard information.
+**ISO 27001** is an information security management standard that provides organizations with a structured framework to safeguard information.
 
-** STRIDE ** is another framework to be familiar for threat modeling which will be discussed in the next section. This helps teams identify potential security threats by classifying them into 6 categories.
+**STRIDE** is another framework to be familiar for threat modeling which will be discussed in the next section. This helps teams identify potential security threats by classifying them into 6 categories.
 1. Spoofing
 2. Tampering
 3. Repudiation
@@ -110,6 +110,9 @@ Threat modeling is the identification and representation of all threats that wou
 
 
 # Logging and Monitoring
+
+Another important aspect of system health is logging and monitoring. Logging is the collection of logs that hold record of events while monitoring is the use of tools to analyzeand evaluate those metrics. By inspecting these logs, teams are able to troubleshoot errors that may occurs. SIEM or Security Information and Event Management provides log aggreagations and real time monitoring and analyses. SIEM Logging greatly enhances an organizations ability to monitor and secure their IT systems. 
+
 
 # Questions to Guide Your Internship
 Now that you know the basics, it's time to actually start your first kickoff call. In my own experience, the floor was opened immediately to us in order to ask any questions we had to perform our job function.
@@ -148,3 +151,4 @@ https://www.darktrace.com/cyber-ai-glossary/the-most-common-cloud-security-threa
 https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
 https://owasp.org/www-community/Threat_Modeling
 https://www.securitycompass.com/blog/stride-in-threat-modeling/
+https://www.paloaltonetworks.com/cyberpedia/what-is-siem-logging#:~:text=SIEM%20Logging%20is%20a%20crucial,stage%20helps%20achieve%20that%20goal.
