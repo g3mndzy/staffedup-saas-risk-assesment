@@ -82,7 +82,7 @@ When conducting your vulnerability assessment, these are factors to consider.
 # Security Frameworks
 You do not need to memorize every framework, but you should be familiar with the following ones.
 
-NIST CSF is used to help organizations manage and reduce cybersecurity risk. According to CSF 2.0, the functions include:
+** NIST CSF ** is used to help organizations manage and reduce cybersecurity risk. According to CSF 2.0, the functions include:
 * Govern – Policy, cybersecurity risk management, and expectations are monitored
 * Identify – Current cybersecurity risks are understood
 * Protect – Safeguards are put in place
@@ -90,7 +90,26 @@ NIST CSF is used to help organizations manage and reduce cybersecurity risk. Acc
 * Respond – Actions are taken against cybersecurity incidents
 * Recover – Operations that were affected are restored
 
-ISO 27001 is an information security management standard that provides organizations with a structured framework to safeguard information.
+** ISO 27001 ** is an information security management standard that provides organizations with a structured framework to safeguard information.
+
+** STRIDE ** is another framework to be familiar for threat modeling which will be discussed in the next section. This helps teams identify potential security threats by classifying them into 6 categories.
+1. Spoofing
+2. Tampering
+3. Repudiation
+4. Information Disclosure
+5. Denial of Service
+6. Elavation of Privilege
+
+# Threat Modeling
+Threat modeling is the identification and representation of all threats that would affect the security of an applications, software, systems, networks and more. It is the process of capturing and analyzing potential undesirable events or assessing vulnerablities. The four question framework to keep in mind is as follows. 
+
+1. What are we working on? -> Found throgh assessing the scope of the project
+2. What can go wrong? -> Model using STRIDE, Kill chains or Attack Trees
+3. What are we going to do about it? -> Implement mitigation strategies or apply accept/trasnfer/eliminate approach
+4. Did we do a good job"? -> Is this plan sufficient to protect the system at large?
+
+
+# Logging and Monitoring
 
 # Questions to Guide Your Internship
 Now that you know the basics, it's time to actually start your first kickoff call. In my own experience, the floor was opened immediately to us in order to ask any questions we had to perform our job function.
@@ -127,3 +146,5 @@ https://www.descope.com/blog/post/saas-auth
 https://www.cisa.gov/resources-tools/training/get-most-out-cloud-storage-and-services-while-minimizing-risk
 https://www.darktrace.com/cyber-ai-glossary/the-most-common-cloud-security-threats
 https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
+https://owasp.org/www-community/Threat_Modeling
+https://www.securitycompass.com/blog/stride-in-threat-modeling/
