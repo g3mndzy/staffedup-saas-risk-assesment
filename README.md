@@ -101,17 +101,29 @@ You do not need to memorize every framework, but you should be familiar with the
 6. Elavation of Privilege
 
 # Threat Modeling
-Threat modeling is the identification and representation of all threats that would affect the security of an applications, software, systems, networks and more. It is the process of capturing and analyzing potential undesirable events or assessing vulnerablities. The four question framework to keep in mind is as follows. 
 
-1. What are we working on? -> Found throgh assessing the scope of the project
-2. What can go wrong? -> Model using STRIDE, Kill chains or Attack Trees
-3. What are we going to do about it? -> Implement mitigation strategies or apply accept/trasnfer/eliminate approach
-4. Did we do a good job"? -> Is this plan sufficient to protect the system at large?
+Threat modeling is the identification and representation of all threats that could affect the security of applications, software, systems, networks, and other digital assets. It is the process of capturing and analyzing potential undesirable events and assessing vulnerabilities before they can be exploited.
+
+A common framework used in threat modeling revolves around **four key** questions:
+
+1. What are we working on?
+This is determined by assessing the scope of the project and understanding the architecture, assets, and data flows within the system.
+
+3. What can go wrong?
+Potential threats are modeled using techniques such as STRIDE, cyber kill chains, or attack trees to identify possible attack vectors.
+
+5. What are we going to do about it?
+Mitigation strategies are implemented to reduce risk. Organizations may choose to mitigate, accept, transfer, or eliminate specific risks depending on the severity and likelihood of the threat.
+
+7. Did we do a good job?
+After mitigation strategies are implemented, the security plan should be reviewed to determine whether the system is sufficiently protected and whether additional safeguards are needed.
 
 
-# Logging and Monitoring
+# Logging and Monitoring using SIEM's
 
-Another important aspect of system health is logging and monitoring. Logging is the collection of logs that hold record of events while monitoring is the use of tools to analyzeand evaluate those metrics. By inspecting these logs, teams are able to troubleshoot errors that may occurs. SIEM or Security Information and Event Management provides log aggreagations and real time monitoring and analyses. SIEM Logging greatly enhances an organizations ability to monitor and secure their IT systems. 
+Another important aspect of system health is logging and monitoring. Logging is the collection of logs that hold record of events while monitoring is the use of tools to analyzeand evaluate those metrics. By inspecting these logs, teams are able to troubleshoot errors that may occurs. SIEM or Security Information and Event Management provides log aggreagation and real time monitoring and analyses. SIEM logging greatly enhances an organizations ability to monitor and secure their IT systems. 
+
+A SOC analyst specialized in monitoring these SIEM's in order to detect any anomolies. Some popular SIEM's that you can use in your homelabs are splunk or Wazuh if you want to practice setting up and configuring a dashboard to monitor different events (but that is beyond the scope of this article). Through my own practices of using SIEM's, it truly emphasized to me how important it is to constantly monitor systems. 
 
 
 # Questions to Guide Your Internship
@@ -151,4 +163,5 @@ https://www.darktrace.com/cyber-ai-glossary/the-most-common-cloud-security-threa
 https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
 https://owasp.org/www-community/Threat_Modeling
 https://www.securitycompass.com/blog/stride-in-threat-modeling/
-https://www.paloaltonetworks.com/cyberpedia/what-is-siem-logging#:~:text=SIEM%20Logging%20is%20a%20crucial,stage%20helps%20achieve%20that%20goal.
+https://www.paloaltonetworks.com/cyberpedia/what-is-siem logging#:~:text=SIEM%20Logging%20is%20a%20crucial,stage%20helps%20achieve%20that%20goal.
+
