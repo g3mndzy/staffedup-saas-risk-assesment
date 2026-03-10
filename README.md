@@ -1,38 +1,129 @@
 # staffedup-saas-risk-assesment
-Cybersecurity Intern Project with Riipen
-
-So you've just landed your first cybersecurity internship ... now what?
-
-Firstly, congratulations! Breaking into the tech space in this job market is rough, so this is a huge accomplishment. But, the hard work that you put in doesnt end there. If you are in school and studying for cybersecurity, it can get easy to deprioritize the foundamentals of security. Everyone is focused on red team this, hack into the main frame that. But the truth is, your first role will propably be doing what most security professionals do, which is:
-
-1. Identifying assets
-2. Conducting vulnerability assessments
-3. Recommending fixes
-
-When I began preparing for my own internship, I realized that a security role is not just dependent of the tools you know. I've spent hours building home labs and using all these cool tools. But also about understanding the basic principals behind modern systems. 
-
-Let's be real, you don't want to be the intern that is sitting down idly twiddling your thumbs. An exceptional intern, asks questions, is naturally curious, makes connections, a team player and a leader. These qualities come from calculated preperation. So lets jump into some fundamentals that will for sure allow you to have a better understadning of you role and hit the ground running. 
-
-GOAL: After reading this you will understand how Saas infrustructure works, common vulnerabilites, frameworks to be familiar with, steps to conducting your vulnerability assesment, and some questions that you can ask to wow your employer!
-
-Prior to starting my project, I developed my foundation knowledge of Saas Architecture Basics, Access Control Models, Cloud security Foundamentals, Common Saas Threats, as well as NIST CSF and ISO 27001.
-
-## Saas Architecture Basics
-
-In today's landscape, companies are moving to a more modern apporach to house their application, services and data in the cloud. Saas Architecutre is essential for building a dynamic applications that meet consumer needs and can be scalable over time. Well structured architecture is essential for seamless business operations. Saas model represents a cloud-based approach where businesses have access to applications without installing heavy software onto your physical computer. Generally, the trend is that businesses are moving towards cloud-based software to cut down on costs that would occur due to on premise maintanence. One form of architecture is multi-tenant architecture which lets multiple users access a single application. To access users pay a yearly or monthly fee. One benefit to this cloud based approach is that these applications have automatic updates, built in security patches and a pay for what you use structure. Saas applications often have API's integrated to customization. The provider handles data storage and security.
-
-# Components of Saas Infrustructure
-
-Inutitive User Interface
-Data storage and access
-Authentication and authorization
-seamless integrations
-scalability and performance
-security
-monitoring and logging
-billing and subsription management
-robust infrustructure
-Compliance, and governance
 
 
-With Saas Models, there are also significant security risks. For example, vulnerablities from intrgrating third party API's that unknowingly have faulty code can increase risk. Additionally, having microservices that are co-dependent on one another can lead to cascading failure since one API's inoperability can lead to the issues with another API. Becauase microservices neeed to be properly configures and often for go defense in depth mechanisms usually employed by monloithic services, it can increase the network attack verture since there are more discoverable IP's and margins of error.
+So you've landed your first cybersecurity internship — now what?
+
+First, congratulations. Breaking into cybersecurity in today’s job market is no small accomplishment. But landing the internship is only the beginning.
+
+Many students focus heavily on offensive security labs and hacking tools. While those skills are valuable, most entry-level security roles focus on something different: understanding systems, identifying risks, and recommending improvements.
+
+When preparing for my internship, I realized success isn’t just about knowing tools. It’s about understanding how modern systems work and how security frameworks can be used to evaluate and protect them.
+
+Let's be real, you don't want to be the intern that is sitting down idly twiddling your thumbs. An exceptional intern asks questions, is naturally curious, and makes connections. These qualities come from calculated preparation. So let's jump into some fundamentals that will definitely allow you to have a better understanding of your role so you can hit the ground running.
+
+GOAL: After reading this you will understand how SaaS infrastructure works, common vulnerabilities, frameworks to be familiar with in guiding your vulnerability assessments, and some questions that you can ask to wow your employer!
+
+My project entails performing a vulnerability assessment of a segment of assets and recommending strategies to improve. Being that the company I am working for is a SaaS company, that was my first stop for research. Let's dive in.
+
+# SaaS Architecture Basics
+In today's landscape, companies are moving to a more modern approach to house their applications, services, and data in the cloud. SaaS architecture is essential for building dynamic applications that meet consumer needs and can be scalable over time. Well-structured architecture is essential for seamless business operations.
+
+The SaaS model represents a cloud-based approach where businesses have access to applications without installing heavy software onto their physical computers. Generally, the trend is that businesses are moving toward cloud-based software to cut down on costs that would occur due to on-premise maintenance.
+
+One form of architecture is multi-tenant architecture, which lets multiple users access a single application. To access it, users pay a yearly or monthly fee. One benefit of this cloud-based approach is that these applications have automatic updates, built-in security patches, and a pay-for-what-you-use structure. SaaS applications often have APIs integrated for customization. The provider handles data storage and security.
+
+## Components of SaaS Infrastructure
+- Intuitive User Interface
+- Data storage and access
+- Authentication and authorization
+- Seamless integrations
+- Scalability and performance
+- Security
+- Monitoring and logging
+- Billing and subscription management
+- Robust infrastructure
+- Compliance and governance
+- SaaS Security Risks
+
+With SaaS models, there are also significant security risks. For example, vulnerabilities from integrating third-party APIs that unknowingly have faulty code can increase risk. Additionally, having microservices that are codependent on one another can lead to cascading failure since one API's inoperability can lead to issues with another API.
+
+Because microservices need to be properly configured and often forego defense-in-depth mechanisms usually employed by monolithic services, it can increase the network attack surface since there are more discoverable IPs and margins of error.
+
+Cloud storage is a pillar in SaaS architecture, so there needs to be consideration on how data is stored and the risks associated with using the cloud. Things to consider include if one system is compromised in a shared environment, that increases the attack surface and allows threat actors to gain elevated access to information.
+Additionally, the cloud provider should be in a country that has ample security laws that protect data and has certain standards for data storage and transmission. There should be end-to-end encryption to ensure that the data is secure and no one can intercept this data. Data should also be stored at rest, further highlighting the need for good security practices at the physical location where this data is stored.
+
+Finally, as an organization, data should not just be stored in the cloud. A part of the CIA triad is availability. If one way to get data is not available, that disrupts services and business operations. So have a physical backup copy that is routinely updated in case of these emergencies.
+
+Another thing to consider is authentication flow. Users want both ease of access and security. It is a delicate balance between increasing security, which adds more steps for users to log on, and actual user usability.
+Especially with multi-tenant architecture, it is essential that authentication is configured correctly to mitigate or eliminate data leakage or cross-tenant access. Multifactor authentication is a common security layer used in SaaS platforms. However, there are levels to MFA flows.
+
+Weak flows include relying on SMS or OTP, which have their own set of vulnerabilities. More secure MFA workflows include using passkeys and authenticators. Other MFA options include magic links and adaptive MFA (reliant on geolocation, login behavior, and device reputation).
+
+# Cloud Security
+Cloud security refers to policies and controls implemented to protect data, applications, and infrastructure and mitigate misconfigurations and unauthorized usage. Cloud security differs from on-premise security in a myriad of ways including, but not limited to:
+-Misconfigurations and visibility gaps
+-Identity and access complexities
+-Shared responsibility confusion
+-Rapidly changing infrastructure
+
+With this comes a shared responsibility model: the customer is responsible for IAM configurations, and cloud providers are responsible for securing underlying infrastructure including the physical data centers.
+
+Cloud security best practices include:
+1.Maintain continuous asset visibility
+2.Enforce strong identity and access management
+3.Establish and reinforce secure baselines and monitor for drift
+4.Protect data in transit and at rest (encryption)
+5.Centralized log collection and monitoring
+6.Incident response planning for cloud-specific incidents
+
+The need for corporations to achieve cloud migration while retaining security has become increasingly challenging. With the advancement of AI, threat actors are harnessing the power of this tool in order to launch highly sophisticated attacks on cloud environments.
+
+Here are some examples of SaaS threats:
+- Data breaches due to IAM misconfigurations or inadequate encryption
+- Account hijacking due to threat actors using stolen credentials
+- Insecure APIs that are prone to attack if not properly vetted or secured
+- DoS attacks that lead to business losses due to downtime
+- Insider threats
+- Compliance violations where businesses are not meeting regulatory standards to secure their data
+- Supply chain attacks
+
+When conducting your vulnerability assessment, these are factors to consider.
+
+# Security Frameworks
+You do not need to memorize every framework, but you should be familiar with the following ones.
+
+NIST CSF is used to help organizations manage and reduce cybersecurity risk. According to CSF 2.0, the functions include:
+* Govern – Policy, cybersecurity risk management, and expectations are monitored
+* Identify – Current cybersecurity risks are understood
+* Protect – Safeguards are put in place
+* Detect – Cybersecurity attacks are found and analyzed
+* Respond – Actions are taken against cybersecurity incidents
+* Recover – Operations that were affected are restored
+
+ISO 27001 is an information security management standard that provides organizations with a structured framework to safeguard information.
+
+# Questions to Guide Your Internship
+Now that you know the basics, it's time to actually start your first kickoff call. In my own experience, the floor was opened immediately to us in order to ask any questions we had to perform our job function.
+
+While that caught me off guard, I wasn't totally unprepared. I first asked the CEO to name all of the assets we would be working with and describe the flow of the environment. Then we had the head of security explain the infrastructure of the platform we would be working with.
+
+Moving forward, with my team we came up with a list of questions to further get a better sense of what we would be dealing with. You can use the questions below and tailor them based on your specific project.
+
+- Where is the web app hosted? AWS, Azure, Google Cloud, Other?
+- What components make up the application?
+- Frontend framework (React, Angular, etc.)
+- Backend services
+- APIs
+- Database
+- Are there microservices or a single backend service?
+- Are there separate environments?
+- Development, Staging, Production
+- What applicant or business data is collected?
+- Is any of it regulated?
+- Is it encrypted in transit? Is it encrypted at rest?
+- How do users authenticate? Is there MFA in place?
+- Can someone upload documents?
+- What file types are allowed?
+- Are files scanned for malware?
+- Where are the files stored?
+
+From here is where the real work begins. I hope you enjoy this brief introduction into how a cybersecurity professional thinks. Of course the research does not end here. Close any gaps you might have before your internship starts so it is not overwhelming and you can confidently ask questions, make connections, and leave a good impression.
+
+Sources
+https://innovecs.com/blog/essential-guide-to-saas-architecture/
+https://www.sei.cmu.edu/blog/3-api-security-risks-and-recommendations-for-mitigation/
+https://www.sei.cmu.edu/blog/stop-imagining-threats-start-mitigating-them-a-practical-guide-to-threat-modeling/
+https://www.descope.com/blog/post/saas-auth
+https://www.cisa.gov/resources-tools/training/get-most-out-cloud-storage-and-services-while-minimizing-risk
+https://www.darktrace.com/cyber-ai-glossary/the-most-common-cloud-security-threats
+https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
