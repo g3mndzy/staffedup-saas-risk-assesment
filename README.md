@@ -99,6 +99,19 @@ You do not need to memorize every framework, but you should be familiar with the
 4. Information Disclosure
 5. Denial of Service
 6. Elavation of Privilege
+   
+**OWASP Top 10** is the open web application security project that focuses on the 10 most critical risks. These include 
+1. Broken Access Controls
+2. Cryptograhpic failue
+3. Injection
+4. Insecure Design
+5. Security Misconfiguration
+6. Vulnerable and Outdated Copmonents
+7. Identification and Authentification failures
+8. Software and Data Integrity Failures
+9. Security and Logging Failures
+10. Server-side request forgery
+
 
 # Threat Modeling
 
@@ -119,12 +132,14 @@ Mitigation strategies are implemented to reduce risk. Organizations may choose t
 After mitigation strategies are implemented, the security plan should be reviewed to determine whether the system is sufficiently protected and whether additional safeguards are needed.
 
 
-# Logging and Monitoring using SIEM's
+# Logging and Monitoring using SIEMs
 
-Another important aspect of system health is logging and monitoring. Logging is the collection of logs that hold record of events while monitoring is the use of tools to analyzeand evaluate those metrics. By inspecting these logs, teams are able to troubleshoot errors that may occurs. SIEM or Security Information and Event Management provides log aggreagation and real time monitoring and analyses. SIEM logging greatly enhances an organizations ability to monitor and secure their IT systems. 
+Another important aspect of system health is logging and monitoring. Logging is the collection of records that capture events occurring within systems, applications, and networks, while monitoring involves using tools to analyze and evaluate those logs and metrics. By inspecting these logs, security teams are able to troubleshoot errors and identify suspicious activity that may occur within their environments.
 
-A SOC analyst specialized in monitoring these SIEM's in order to detect any anomolies. Some popular SIEM's that you can use in your homelabs are splunk or Wazuh if you want to practice setting up and configuring a dashboard to monitor different events (but that is beyond the scope of this article). Through my own practices of using SIEM's, it truly emphasized to me how important it is to constantly monitor systems. 
+SIEM, or Security Information and Event Management, provides log aggregation along with real-time monitoring and analysis. By collecting logs from multiple systems into a centralized location, SIEM platforms greatly enhance an organization's ability to monitor and secure its IT infrastructure.
 
+A SOC analyst typically specializes in monitoring these SIEM platforms in order to detect anomalies and potential security incidents. Some popular SIEM platforms that you can use in your home labs are Splunk or Wazuh if you want to practice setting up and configuring dashboards to monitor different security events. However, that is beyond the scope of this article.
+Through my own experience working with SIEM tools, it emphasized how important it is to continuously monitor systems to maintain visibility and detect threats early.
 
 # Questions to Guide Your Internship
 Now that you know the basics, it's time to actually start your first kickoff call. In my own experience, the floor was opened immediately to us in order to ask any questions we had to perform our job function.
@@ -164,4 +179,5 @@ https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf
 https://owasp.org/www-community/Threat_Modeling
 https://www.securitycompass.com/blog/stride-in-threat-modeling/
 https://www.paloaltonetworks.com/cyberpedia/what-is-siem logging#:~:text=SIEM%20Logging%20is%20a%20crucial,stage%20helps%20achieve%20that%20goal.
+https://www.cloudflare.com/learning/security/threats/owasp-top-10/
 
