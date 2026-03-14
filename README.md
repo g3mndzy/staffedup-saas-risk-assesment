@@ -56,3 +56,14 @@ User tokens expire after 24 hours
 # Microservices Architecture
 They migrated to microservices, NestJS backend
 
+
+Okay so lets break this down because what does this actually mean. Below describes the flow of traffic. 
+
+users interact with the screen which send requests to the backend and the backend talks to database and storage. backend send data back to the screen .
+
+React frontend = the web app users see in their browser
+Flutter mobile application = the mobile app users use on phones
+NestJS backend microservices = the server-side logic that processes requests
+MySQL database = where structured data is stored
+Linode = where some of the application code/infrastructure runs
+AWS cloud services = where assets and applicant data are stored
