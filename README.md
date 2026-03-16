@@ -163,7 +163,15 @@ The React frontend and Flutter mobile app are the user-facing parts of the platf
 | Cloud Storage      | Collection           | Data Harvesting           | Public storage bucket exposure           |
 
 
+SOC 2 Considerations (https://www.youtube.com/watch?v=mpxaZIUSOmc) 
+Security, Availability, processing, integrity and privacy. (in a nutshell is this company secure) Evidence of a security program in place.
 
+Put in place policies and procedures so set baseline and compliance.
+-Annual reviews of employee access. Essentially preparing the company to be audited and comply with SOC 2 guidelines. Access controls and least privilege, MFA, Encryption, change requests, security tests in each version. 
+
+Type 1 vs Type 2
+Type 1 = has controls in place
+Type 2 = change management/ clearly defined pull requests
 
 Sources
 https://www.codecademy.com/article/what-is-back-end-architecture
