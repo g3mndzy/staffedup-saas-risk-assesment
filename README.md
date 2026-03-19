@@ -1,8 +1,5 @@
-# staffedup-saas-risk-assesment
-
-
-So You Landed Your First Cybersecurity Internship — Now What?
-Understanding SaaS Security, Risk Assessment, and Threat Modeling
+# So You Landed Your First Cybersecurity Internship — Now What?
+## Understanding SaaS Security, Risk Assessment, and Threat Modeling
 
 First, congratulations. Breaking into cybersecurity in today’s job market is no small accomplishment. But landing the internship is only the beginning.
 
