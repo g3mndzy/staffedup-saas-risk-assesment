@@ -1,8 +1,7 @@
-# staffedup-saas-risk-assesment
-Cybersecurity Intern Project with Riipen
-
-
 # Initial Research
+Here I showcased the research I did prior to beginning the project. Sources are shown at the bottom. I used this research to guide the content of my first blog post. 
+
+
 As a junior cybersecurity consultant, my job is to 
 - identify assets
 - identify risks
