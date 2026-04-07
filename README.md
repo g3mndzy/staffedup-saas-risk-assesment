@@ -1,4 +1,4 @@
-# StaffedUp SaaS Risk Assessment
+# SaaS Risk Assessment
 
 ## Overview
 This project was completed as part of a cybersecurity internship through Riipen. Our team conducted a SaaS risk assessment using industry frameworks such as NIST CSF and ISO 27001.
